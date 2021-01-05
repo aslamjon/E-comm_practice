@@ -1,0 +1,22 @@
+footer{
+    background: #2c2c2c;
+    ul{
+        li{
+            a{
+                text-decoration: none;
+                color: white;
+                font-weight: 400;
+            }
+            div{
+                color: #ffffff;
+            }
+        }
+    }
+}
+@media (max-width: 768px) {
+    footer{
+        .col-sm-6{
+            margin-top: 30px;
+        }
+    }
+}
