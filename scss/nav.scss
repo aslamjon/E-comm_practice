@@ -1,0 +1,129 @@
+.section-1{
+    form:focus{
+        outline: none !important;
+    }
+    .custom-select{
+        border: none;
+        background: none;
+        background-image: url('../img/arrow\ down.svg');
+        background-repeat: no-repeat;
+        background-position: right 18% center;
+        // padding-left: 0;
+        padding-right: 24px !important;
+    }
+    .custom-select:focus{
+        border: none;
+        box-shadow: none;
+    }
+    .nav-item{
+        margin-left: 20px;
+    }
+    .nav-linkk{
+        padding: 0 !important;
+        color: #262626;
+        transition: 0.3s;
+        text-decoration: none;
+        &:hover{
+            color: #26262680 !important;
+        }
+    }
+    .noti{
+        top: 4px;
+        right: -5px;
+        width: 15px;
+        height: 15px;
+        border-radius: 50%;
+        background-color: #fb7181;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 10px;
+        color: #ffffff;
+        font-weight: bold;
+    }
+    .icon{
+        width: 20px;
+    }
+    ul{
+        margin: 0;
+    }
+}
+nav{
+    padding: 0 !important;
+    .logo-icon{
+        width: 40px;
+    }
+    ul{
+        margin-left: 39%;
+    }
+    .nav-item{
+        margin-left: 40px !important;
+        // margin-right: 20px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .nav-link{
+        padding: 0 !important;
+        color: #262626;
+        transition: 0.3s;
+        text-transform: uppercase;
+        &:hover{
+            color: #40bfff !important;
+        }
+    }
+}
+.section-mobail-nav{
+    display: none;
+}
+@media (max-width: 768px) {
+    .section-1{
+        display: none;
+    }
+    .section-mobail-nav{
+        display: block;
+        nav{
+            padding: 10px 20px !important;
+            border-bottom: 1px solid #ebf0ff;
+            form{
+                width: 80%;
+                .search-input{
+                    width: 100%;
+                    height: 49px;
+                    border: 1px solid #ebf0ff;
+                    box-sizing: border-box;
+                    border-radius: 5px;
+                    input{
+                        height: 100%;
+                        width: 85%;
+                        border: none;
+                        outline: none;
+                        &::placeholder{
+                            color: #9098b1;
+                        }
+                    }
+                    img{
+                        width: 15%;
+                        padding-left: 15px;
+                        height: 60%;
+                        
+                    }
+                }
+            }
+
+            .noti{
+                top: 1px;
+                right: -2px;
+                width: 10px;
+                height: 10px;
+                border-radius: 50%;
+                background-color: #fb7181;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                font-size: 10px;
+                color: #ffffff;
+                font-weight: bold;
+            }
+        }
+    }
+}
